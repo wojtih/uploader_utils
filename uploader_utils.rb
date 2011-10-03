@@ -38,7 +38,7 @@ module UploaderUtils
       end
 
       def picture_dimensions
-        if picture_height and picture_height and picture_width < 150 and picture_height < 150
+        if picture_height and picture_height and picture_width < 100 and picture_height < 100
           errors.add :picture, "ma zbyt małe rozmiary"
         end
       end
